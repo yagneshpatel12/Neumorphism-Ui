@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #e6e7ee;
+}
+.main{
+    width: 100vw;
+    overflow-x:hidden !important;
+}
+.first{
+    margin-top: 50px;
+    text-align: center;
+    width: 100vw;
+}
+.first h1{
+    font-family: 'Roboto', sans-serif;
+  display: inline;
+  padding: 10px 15px;
+  cursor: pointer;
+    background-color: #e6e7ee;
+    color: #ff77cd;
+    box-shadow: -7px -7px 20px 0px #fff9,
+ -4px -4px 5px 0px #fff9,
+ 7px 7px 20px 0px #0002,
+ 4px 4px 5px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001;
+ transition: box-shadow 0.6s cubic-bezier(0.79,0.21,0.06,0.81);
+    border-color: #d1d9e6!important;
+    border-radius: .55rem!important;
+    border: .0625rem solid #fafbfe!important;
+}
+
+.first p{
+    text-align: start;
+    margin: auto;
+    width: 60%;
+    margin-top: 50px;
+    color: #44476a;
+    font-weight: 300;
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.card{
+width: 800px;
+border-color: #d1d9e6;
+background-color: #e6e7ee;
+border: .0625rem solid rgba(243,247,250,.05);
+border-radius: .55rem;
+margin: auto;
+margin: 70px auto;
+padding: 20px 25px;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff;
+}
+.svg{
+    width: 280px;
+    margin-right: 40px;
+}
+.card div h1{
+    font-family: 'Roboto', sans-serif;
+}
+.card div p{
+    font-family: "Nunito Sans",sans-serif;
+    color: #44476a;
+    font-weight: 300 !important;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.details {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 400px;
+margin-top: 15px;
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 0px;
+    width: 120px;
+    cursor: pointer;
+      background-color: #e6e7ee;
+      color: #44476a;
+      box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff;
+      border-color: #d1d9e6;
+      border-radius: .55rem;
+      border: .0625rem solid #fafbfe;
+      font-size: 18px;
+}
+.btn:hover{
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+    color: #ff77cd;
+}
+ .share{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 200px;
+}
+.share a{
+cursor: pointer;
+ height: 50px;
+ width: 50px;
+ border-radius: 50px;
+ border: none;
+ outline: none;
+ background-color: #e0e5ec;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ box-shadow: -7px -7px 20px 0px #fff9,
+ -4px -4px 5px 0px #fff9,
+ 7px 7px 20px 0px #0002,
+ 4px 4px 5px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001;
+ transition: box-shadow 0.6s cubic-bezier(0.79,0.21,0.06,0.81);
+ font-size: 30px;
+ text-decoration: none;
+}
+.share a:hover{
+    box-shadow: 4px 4px 6px 0px rgb(255, 255,255,0.5),
+    -4px -4px 6px 0px rgb(116, 125,136,0.2),
+    inset  -4px -4px 6px 0px rgb(255, 255,255,0.5),
+    inset   4px 4px 6px 0px rgb(116, 125,136,0.2);
+}
+.share a:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    box-shadow:   -4px -4px 6px 0px rgb(116, 125,136,0.2),
+    4px 4px 6px 0px rgb(255, 255,255,0.5),
+    inset   4px 4px 6px 0px rgba(56, 98, 150, 0.2),
+    inset  -4px -4px 6px 0px rgb(255, 255,255,0.5);
+}
+.share a img{
+    width: 20px;
+}
+@media screen and (max-width:850px){
+ .first h1{
+     font-size: 24px;
+     margin-bottom: 30px !important;
+ }
+ .first p{
+     font-size: 16px;
+     margin-top: 30px;
+ }
+ .card{
+     width: 600px;
+ }
+ .svg{
+     width: 200px;
+     margin-left: 20px;
+     margin-top: 30px;
+ }
+ .card div h1{
+     font-size: 24px;
+ }
+ .card div p{
+     font-size: 14px;
+ }
+ .details{
+     width: 300px;
+ }
+ .btn{
+     padding: 8px 0px;
+     width: 120px;
+ }
+ .share a{
+     height: 40px;
+     width: 40px;
+ }
+}
+@media screen and (max-width:600px){
+    .first h1{
+        font-size: 20px;
+        margin-bottom: 30px !important;
+    }
+    .first p{
+        font-size: 14px;
+        margin-top: 30px;
+        width: 60%;
+    }
+    .card{
+        width: 300px;
+        flex-direction: column;
+        justify-content: center !important;
+        text-align: center;
+        margin: 40px auto;
+    }
+    .svg{
+        width: 250px;
+        height: 200px;
+        margin: 0px;
+    }
+    .card div h1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .card div p{
+        font-size: 12px;
+    }
+    .details{
+        width:100%;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .btn{
+        padding: 8px 0px;
+        width: 220px;
+        margin-top: 20px;
+    }
+    .share a{
+        height: 40px;
+        width: 40px;
+    }
+   }
+   @media screen and (max-width:450px){
+    .first h1{
+        font-size: 20px;
+        margin-bottom: 30px !important;
+    }
+    .first p{
+        font-size: 14px;
+        margin-top: 30px;
+        width: 80%;
+    }
+    .card{
+        width: 280px;
+        flex-direction: column;
+        justify-content: center !important;
+        text-align: center;
+        margin: 40px auto;
+    }
+    .svg{
+        width: 200px;
+        height: 150px;
+        margin: auto;
+    }
+    .card div h1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .card div p{
+        font-size: 12px;
+    }
+    .details{
+        width:100%;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .btn{
+        padding: 8px 0px;
+        width: 220px;
+        margin-top: 20px;
+    }
+    .share a{
+        height: 40px;
+        width: 40px;
+    }
+   }
+   @media screen and (max-width:320px){
+    .first h1{
+        font-size: 20px;
+        margin-bottom: 30px !important;
+    }
+    .first p{
+        font-size: 14px;
+        margin-top: 30px;
+        width: 60%;
+    }
+    .card{
+        width: 250px;
+        flex-direction: column;
+        justify-content: center !important;
+        text-align: center;
+        margin: 40px auto;
+        padding: 10px 10px;
+    }
+    .svg{
+        width: 200px;
+        height: 120px;
+        margin: 0px;
+    }
+    .card div h1{
+        font-size: 20px;
+        margin-top: 20px;
+        margin: auto;
+        width: 100%;
+    }
+    .card div p{
+        font-size: 12px;
+    }
+    .details{
+        width:100%;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .btn{
+        padding: 8px 0px;
+        width: 220px;
+        margin-top: 20px;
+    }
+    .share a{
+        height: 40px;
+        width: 40px;
+    }
+   }
